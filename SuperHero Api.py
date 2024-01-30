@@ -2,7 +2,7 @@ import requests
 
 
 superman_names = ['Hulk', 'Captain America', 'Thanos']
-token = '2619421814940190'
+token = ''
 superman_intelligence = dict()
 for superman_name in superman_names:
     res = requests.get(f'https://superheroapi.com/api/{token}/search/{superman_name}')
